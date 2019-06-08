@@ -6,7 +6,8 @@ def my_collect (array)
     i += 1
   end
   puts new_ar
-  return new_ar
+  array = new_ar
+  return array
 end
 
 arr = ["Tim Jones", "Tom Smith", "Jim Campagno"]
