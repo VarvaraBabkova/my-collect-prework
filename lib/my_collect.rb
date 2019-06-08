@@ -5,14 +5,6 @@ def my_collect (array)
     new_ar.push(yield (array[i]))
     i += 1
   end
-  puts new_ar
   array = new_ar
-  puts array
   return array
 end
-
-arr = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(arr) do |n|
-  n.split(" ").first
-end
-puts arr
