@@ -7,6 +7,7 @@ def my_collect (array)
   end
   puts new_ar
   array = new_ar
+  puts array
   return array
 end
 
