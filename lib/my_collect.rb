@@ -5,6 +5,7 @@ def my_collect (array)
     new_ar.push(yield (array[i]))
     i += 1
   end
+  puts new_ar
   return new_ar
 end
 
